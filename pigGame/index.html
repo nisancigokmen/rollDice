@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Game</title>
+</head>
+
+<body>
+
+    <div id="gamePanel">
+
+        <!--left dice rolled style -->
+        <div id="diceRolled">
+
+            <div class="diceL1">
+                <img src="./img/zar1.png" alt="dice1" class="dice1" width="63px">
+            </div>
+
+            <div class="diceL2">
+                <img src="./img/zar2.png" alt="dice2" class="dice2" width="63px">
+            </div>
+
+            <div class="diceL3">
+                <img src="./img/zar3.png" alt="dice3" class="dice3" width="63px">
+            </div>
+
+            <div class="diceL4">
+                <img src="./img/zar4.png" alt="dice4" class="dice4" width="63px">
+            </div>
+
+            <div class="diceL5">
+                <img src="./img/zar5.png" alt="dice5" class="dice5" width="63px">
+            </div>
+
+            <div class="diceL6">
+                <img src="./img/zar6.png" alt="dice6" class="dice6" width="63px">
+            </div>
+            <br>
+            <hr>
+            <div class="totalPoint">
+
+            </div>
+        </div>
+
+        <!---------------------------- PLAYER1---------------------------->
+        <div id="player1">
+            <h1>PLAYER-1</h1>
+
+            <div id="numPlayer1">
+                <p class="num1"></p>
+            </div>
+
+            <br>
+
+            <div id="total1">
+                <h2>TOTAL</h2>
+                <p class="total1"></p>
+            </div>
+
+        </div>
+        <!--butona tıklanır ve zar 1 gelene kadar atlır ve diğer oyuncuya sıra geçer totalde 100 olan oyunu alır...-->
+        <div id="diceImg">
+
+            <img src="./img/zar1.png" alt="zar1" width="132px" class="dice">
+
+            <div id="rollDice">
+                <button id="diceBtn"> ROLL DICE</button>
+            </div>
+
+        </div>
+
+
+        <!---------------------------- PLAYER2---------------------------->
+        <div id="player2">
+            <h1>PLAYER-2</h1>
+
+            <div id="numPlayer2">
+                <p class="num2"></p>
+            </div>
+
+            <div id="total2">
+                <h2>TOTAL</h2>
+                <p class="total2"></p>
+            </div>
+
+        </div>
+
+        <!--right dice rolled style -->
+        <div id="diceRolled2">
+
+            <div class="diceR1">
+                <img src="./img/zar1.png" alt="dice1" class="dicee1" width="63px">
+            </div>
+
+            <div class="diceR2">
+                <img src="./img/zar2.png" alt="dice2" class="dicee2" width="63px">
+            </div>
+
+            <div class="diceR3">
+                <img src="./img/zar3.png" alt="dice3" class="dicee3" width="63px">
+            </div>
+
+            <div class="diceR4">
+                <img src="./img/zar4.png" alt="dice4" class="dicee4" width="63px">
+            </div>
+
+            <div class="diceR5">
+                <img src="./img/zar5.png" alt="dice5" class="dicee5" width="63px">
+            </div>
+
+            <div class="diceR6">
+                <img src="./img/zar6.png" alt="dice6" class="dicee6" width="63px">
+            </div>
+            <br>
+            <hr>
+            <div class="totalPoint">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

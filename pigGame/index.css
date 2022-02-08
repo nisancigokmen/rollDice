@@ -1,0 +1,383 @@
+    body {
+        margin: 0px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    #gamePanel {
+        display: flex;
+        margin-top: 10em;
+        justify-content: space-around;
+    }
+    /* -----------------------------PLAYER 1 STYLE----------------------------- */
+    
+    #player1 {
+        width: 30%;
+        height: 40em;
+        background-color: rgb(177, 174, 174);
+        /* oyun sırası geçenin rengi bu olur*/
+        padding-left: 2em;
+        -webkit-box-shadow: 5px 5px 15px 3px #666;
+        -webkit-box-shadow: 5px 5px 15px 3px #666;
+        box-shadow: 5px 5px 15px 3px #666;
+        border: 2px solid #fff;
+    }
+    
+    #player1 h1 {
+        text-align: center;
+        color: #fff;
+        margin-top: 1em;
+    }
+    
+    #numPlayer1 {
+        margin-top: 2em;
+        width: 12em;
+        height: 5em;
+        margin-left: 7.5em;
+        background-color: rgb(92, 91, 91);
+        border: 2px solid #fff;
+        font-size: 21px;
+        color: #fff;
+        text-align: center;
+        border-radius: 0.42em;
+    }
+    
+    #total1 {
+        margin-left: 10em;
+        margin-top: 8em;
+        width: 14em;
+        height: 8em;
+        background-color: rgba(0, 0, 0, 0.423);
+        border: 2px solid #fff;
+        border-radius: 1em;
+    }
+    
+    #total1 h2 {
+        text-align: center;
+        padding-top: 0.1em;
+        color: #fff;
+    }
+    
+    .total1 {
+        text-align: center;
+        margin-top: 1em;
+        color: #fff;
+        font-size: 26px;
+    }
+    
+    .total2 {
+        text-align: center;
+        margin-top: 1em;
+        color: #fff;
+        font-size: 26px;
+    }
+    
+    .num1 {
+        text-align: center;
+        margin-top: 1em;
+        color: #fff;
+        font-size: 26px;
+    }
+    
+    .num2 {
+        text-align: center;
+        margin-top: 1em;
+        color: #fff;
+        font-size: 26px;
+    }
+    /*-----------------------*/
+    
+    #diceRolled {
+        margin-top: 0.55em;
+    }
+    
+    #diceRolled2 {
+        margin-top: 0.55em;
+    }
+    /* -----------------CLICK THE BUTTON STYLE ------------------- */
+    
+    #diceImg img {
+        margin-top: 9em;
+        margin-left: 1.5em;
+    }
+    
+    #diceBtn {
+        margin-top: 6em;
+        width: 12em;
+        height: 6em;
+        background-color: rgb(77, 75, 75);
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 0.55em;
+        opacity: 1;
+    }
+    
+    #diceBtn:hover {
+        background-color: rgb(41, 41, 41);
+    }
+    
+    .diceL1 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .diceR1 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .dice1 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .diceL2 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .diceR2 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .dice2 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .diceL3 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .diceR3 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .dice3 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .diceL4 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .diceR4 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .dice4 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .diceL5 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .diceR5 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .dice5 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .diceL6 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .diceR6 {
+        width: 5em;
+        height: 4em;
+        background-color: rgb(148, 144, 144);
+        margin-top: 1em;
+        border: 1px solid #fff;
+        padding-bottom: 1em;
+    }
+    
+    .dice6 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .dicee1 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .dicee2 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .dicee3 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .dicee4 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .dicee5 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    
+    .dicee6 {
+        padding-left: 0.65em;
+        padding-right: 0.55em;
+        padding-top: 0.55em;
+        padding-bottom: 0.25em;
+        display: none;
+    }
+    /* -----------------------------PLAYER 2 STYLE -----------------------------*/
+    
+    #player2 {
+        width: 30%;
+        height: 40em;
+        background-color: rgb(148, 144, 144);
+        /*oyun sırası onda olmayanın rengi yani genel renk*/
+        padding-left: 2em;
+        -webkit-box-shadow: 5px 5px 15px 3px #666;
+        -webkit-box-shadow: 5px 5px 15px 3px #666;
+        box-shadow: 5px 5px 15px 3px #666;
+        border: 2px solid #fff;
+        padding-left: 2em;
+    }
+    
+    #player2 h1 {
+        text-align: center;
+        color: #fff;
+        margin-top: 1em;
+    }
+    
+    #numPlayer2 {
+        margin-top: 1em;
+        width: 12em;
+        height: 5em;
+        margin-left: 7.5em;
+        background-color: rgb(92, 91, 91);
+        border: 2px solid #fff;
+        font-size: 21px;
+        color: #fff;
+        text-align: center;
+        border-radius: 0.42em;
+        margin-top: 2em;
+    }
+    
+    #total2 {
+        margin-left: 11em;
+        margin-top: 8em;
+        width: 14em;
+        height: 8em;
+        background-color: rgba(0, 0, 0, 0.423);
+        border: 2px solid #fff;
+        border-radius: 1em;
+    }
+    
+    #total2 h2 {
+        text-align: center;
+        padding-top: 0.1em;
+        color: #fff;
+    }
+    /*-----------------------*/
+    
+    .totalPoint {
+        width: 5em;
+        height: 4em;
+        border: 2px solid #fff;
+        background-color: rgb(43, 43, 43);
+        margin-top: 1em;
+        color: #fff;
+        text-align: center;
+    }
+    
+    hr {
+        color: #fff;
+    }
