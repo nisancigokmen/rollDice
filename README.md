@@ -1,4 +1,4 @@
-# Loser In Gambling Losses In <del>Love</del>...
+# Loser In Gambling Losses In <del>Love</del>
 
 ![Screenshot_2022-02-09 Game](https://user-images.githubusercontent.com/91744618/153090039-58801de9-3378-4b99-b2e0-bc54cce8139a.png)
 
