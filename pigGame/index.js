@@ -45,6 +45,7 @@ const diceButton = document.querySelector("#diceBtn");
 let lastRandomList = [];
 
 
+
 // -------------  CLICK THE DICE  BUTTON  -------------
 
 diceButton.addEventListener("click", function() {
