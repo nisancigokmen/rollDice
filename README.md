@@ -6,7 +6,6 @@
   
   <h3>USE OF </h3> 
   
-  
    <ol>
     <li> <p> Click 'roll dice' and roll the first dice </p> </li>
     <li> <p>  You have a chance to roll 6 dice.  </p> </li>
@@ -47,3 +46,4 @@
   <br> <br>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&size=22&lines=Thanks+for+visiting)](https://git.io/typing-svg)
+
