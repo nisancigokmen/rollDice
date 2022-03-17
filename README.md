@@ -3,7 +3,6 @@
 ![Screenshot_2022-02-09 Game](https://user-images.githubusercontent.com/91744618/153090039-58801de9-3378-4b99-b2e0-bc54cce8139a.png)
 
 
-
 <div id="useApp">
   
   <h3>USE OF </h3> 
@@ -48,4 +47,3 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%23FFFFFF&size=22&lines=Thanks+for+visiting)](https://git.io/typing-svg)
 
 &copy; Gökmen Nişancı / Web Developer. <br><br>
-
