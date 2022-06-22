@@ -1,6 +1,5 @@
 # Loser In Gambling Losses In <del>Love</del>
 
-
 ![Screenshot_2022-02-09 Game](https://user-images.githubusercontent.com/91744618/153090039-58801de9-3378-4b99-b2e0-bc54cce8139a.png)
 
 <div id="useApp">
@@ -45,7 +44,6 @@
 <img src= "https://media3.giphy.com/media/ckHAdLU2OmY7knUClD/giphy.gif?cid=790b761192beb6aa56d7e2d85e642f34d01e5364cfc59420&rid=giphy.gif&ct=g" width="620" height ="320px">
 
   <br> <br>
-
 
 &copy; Gökmen Nişancı / Web Developer. <br><br>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2318f9ee&size=22&lines=Thanks+for+visiting)](https://git.io/typing-svg)
