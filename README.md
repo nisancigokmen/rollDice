@@ -5,7 +5,7 @@
 <div id="useApp">
   
   <h3>USE OF </h3> 
-  
+ 
   
    <ol>
     <li> <p> Click 'roll dice' and roll the first dice </p> </li>
@@ -20,6 +20,7 @@
 <div id="contact">
  
 <h2> Connect with me: </h2>
+ 
  
   <a href="https://linkedin.com/in/nisancigokmen"><img src="https://i.ya-webdesign.com/images/linkedin-logo-png-for-gmail-3.png" width="66x"> </a>  &nbsp;
    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=nisancigokmen@gmail.com"><img src="https://img.icons8.com/ios-glyphs/60/000000/new-post.png"/> </a> 
